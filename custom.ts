@@ -144,7 +144,7 @@ namespace 自動水やりマシン {
         let LX_LSB = 0
         let LX = 0
         let LX_CONVERTED = 0
-        
+
         // 明るさの読み取り
         pins.i2cWriteNumber(
             92,

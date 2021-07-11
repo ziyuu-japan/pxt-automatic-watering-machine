@@ -65,7 +65,7 @@ namespace 自動水やりマシン {
      * TODO: describe
      * @param value describe value here
      */
-    //% block
+    //% block="気温を読み取る[度]"
     //% weight=99
     export function 気温を読み取る(): number {
         let T_MSB = 0
@@ -100,7 +100,7 @@ namespace 自動水やりマシン {
      * TODO: describe
      * @param value describe value here
      */
-    //% block
+    //% block="湿度を読み取る[%]"
     //% weight=98
     export function 湿度を読み取る(): number {
         let RH_MSB = 0
@@ -137,7 +137,7 @@ namespace 自動水やりマシン {
      * TODO: describe
      * @param value describe value here
      */
-    //% block
+    //% block="光量を読み取る[ルクス]"
     //% weight=97
     export function 光量を読み取る(): number {
         let LX_MSB = 0

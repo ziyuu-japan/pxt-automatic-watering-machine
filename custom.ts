@@ -7,7 +7,7 @@
 /**
  * 自動水やりマシン blocks
  */
-//% weight=100 color=#0fbc11 icon=""
+//% weight=100 color=#0fbc11 icon="\uf1ec"
 namespace 自動水やりマシン {
     /**
          * TODO: describe
@@ -100,7 +100,7 @@ namespace 自動水やりマシン {
      * TODO: describe
      * @param value describe value here
      */
-    //% block="湿度を読み取る[%]"
+    //% block="湿度を読み取る[パーセント]"
     //% weight=98
     export function 湿度を読み取る(): number {
         let RH_MSB = 0

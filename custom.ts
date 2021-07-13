@@ -173,6 +173,7 @@ namespace 自動水やりマシン {
         result = Vout - Vout_on_air
         result = result / (Vout_in_water - Vout_on_air)
         result = result * 100
+        result = Math.constrain(result, 0, 100)
         return result
     }
 }
